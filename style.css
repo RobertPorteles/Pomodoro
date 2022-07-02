@@ -1,0 +1,90 @@
+body{
+	background-color: #add8e6;
+	margin:0;
+}
+div{
+	display: inline;
+	text-align: center;
+	
+}
+h1{
+	font-size: 160px;
+	display: inline;
+}
+h1::after {
+    content: '.';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .5s infinite;
+  }
+ @keyframes blink {
+    0%, 90% {
+      opacity: 1;
+    }
+    5% {
+      opacity: 0;
+    }
+  }
+  nav{
+  	background-color: #add8e6;
+  	padding: 25px;
+  }
+
+img{
+	width: 60px
+
+}
+
+main{
+	text-align: center;
+	padding: 0;
+	border:0;
+
+
+}
+
+.display{
+	font-size: 10rem;
+	padding: 0;
+	border:0;
+	
+}
+
+#timer{
+	position: relative;
+	top:15rem;
+	padding: 0;
+	border: 0;
+	text-shadow:gray 5px 1px;
+}
+
+.control{
+margin-right: 63px;
+position: relative;
+text-align:center;
+top:25rem;
+}
+.btn{
+margin-left: 60px;
+background-color: #add8e6;
+border:none;
+font-size: 25px;
+font-family: monospace;
+text-shadow: 2px 1px ;
+}
+button:hover{
+	
+	cursor:pointer;
+
+}
+footer{
+	font-family: serif;
+	font-size: 25px;
+	padding: 50px;
+	background-color: #add8e6;
+	position: relative;
+	text-align: center;
+	top:25em;
+}
+
